@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="../css/lien_he.css">
+</head>
+
+<body>
+    <header>
+
+        <div class="table">
+            <a class="left_head" title="về trang chủ" href="thegioididong.html">
+                <img src="../library/img/logo.png" alt="">
+                <input type="text" placeholder="bạn tìm gì...">
+            </a>
+            <div class="right_head">
+                <a href="../html/dien_thoai.html" title="điện thoại di động">
+                    <img src="../library/img/smartphone.png" alt="">
+                    <div class="text_header">điện thoại</div>
+                </a>
+                <a href="./tablet.html" title="máy tính bảng , tablet">
+                    <img src="../library/img/icon.png" alt="">
+                    <div class="text_header">tablet</div>
+                </a>
+
+                <a href="#" title="máy tính xách tay , laptop">
+                    <img src="../library/img/laptop.png" alt="">
+                    <div class="text_header">laptop</div>
+                </a>
+                <a href="#" title=" phụ kiện điện thoại di động , phụ kiện table, phụ kiện laptop">
+                    <img src="../library/img/headphones.png" alt="">
+                    <div class="text_header">phụ kiện</div>
+                </a>
+                <a href="#" title="đồng hồ thông minh">
+                    <img src="../library/img/smart-watch.png" alt="">
+                    <div class="text_header">đồng hồ</div>
+                </a>
+                <button type="button" class="dangky" data-toggle="modal" data-target="#modelId1">
+                    đăng ký
+                </button>
+                <div class="modal fade" id="modelId1" tabindex="-1" role="dialog" aria-labelledby="modelTitleId"
+                    aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title">Đăng ký</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+
+                                <input type="text" name="" id="hoten" class="form-control" value="" placeholder="Nhập họ và tên">
+                                <br />
+                                <input type="text" name="" id="sdt" class="form-control" value="" placeholder="Nhập số điện thoại"><br />
+                                <input type="text" name="" id="_email" class="form-control" value="" placeholder="Nhập địa chỉ email"><br />
+                                <input type="text" name="" id="mk" class="form-control" value="" placeholder="Nhập mật khẩu"><br />
+                                <input type="text" name="" id="xn_mk" class="form-control" value="" placeholder="Xác nhận mật khẩu"><br />
+                                <input type="text" name="" id="diachi" class="form-control" value="" placeholder="Nhập địa chỉ nhận hàng"><br />
+                                <input type="checkbox" name="" id="dongy" value="1"> Bạn đã đọc và đồng ý với các điều
+                                khoản bảo mật của <b>TGGD</b><br />
+                                <input type="checkbox" name="" id="nhan_km" value="1"> Đăng ký nhận mã khuyến mãi từ
+                                chúng tôi
+
+
+
+                            </div>
+                            <div class="modal-footer">
+                                <input type="button" data-dismiss="modal" style="background: darkblue; color: white; cursor: pointer"
+                                    class="form-control" value="ĐĂNG KÝ" onclick=" return dangky()">
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <button type="button" class="dangnhap" data-toggle="modal" data-target="#modelId2">
+                    đăng nhập
+                </button>
+                <div class="modal fade" id="modelId2" tabindex="-1" role="dialog" aria-labelledby="modelTitleId"
+                    aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title">Đăng nhập</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+
+                            </div>
+                            <div class="modal-body">
+                                <input type="text" name="" id="input" class="form-control" value="" placeholder="Nhập địa chỉ email"><br />
+                                <input type="text" name="" id="input" class="form-control" value="" placeholder="Nhập mật khẩu">
+                            </div>
+                            <div class="modal-footer">
+                                <input type="button" data-dismiss="modal" style="background: darkblue; color: white; cursor: pointer"
+                                    class="form-control" value="ĐĂNG NHẬP">
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+
+
+            </div>
+            <div class="nav-item dropdown">
+                <a class="" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false"
+                    class="align-justify"><img src="../library/img/icon_menu.PNG" alt=""></a>
+                <div class="dropdown-menu">
+                    <a class="dropdown-item" href="../html/thegioididong.html">Trang chủ</a>
+                    <a class="dropdown-item" href="../html/dien_thoai.html">Điện thoại</a>
+                    <a class="dropdown-item" href="../html/tablet.html">Tablet</a>
+                    <a class="dropdown-item" href="#">Laptop</a>
+                    <a class="dropdown-item" href="#">Đồng hồ</a>
+                    <a class="dropdown-item" href="#">Phụ kiện</a>
+                    <a class="dropdown-item" href="../html/gioi_thieu.html">Giới thiệu</a>
+                    <a class="dropdown-item">
+                        <button type="button" class="dk" data-toggle="modal" data-target="#modelId1">
+                            đăng ký
+                        </button>
+                        <div class="modal fade" id="modelId1" tabindex="-1" role="dialog" aria-labelledby="modelTitleId"
+                            aria-hidden="true">
+                            <div class="modal-dialog" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title">Đăng ký</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+
+                                        <input type="text" name="" id="hotenn" class="form-control" value=""
+                                            placeholder="Nhập họ và tên">
+                                        <br />
+                                        <input type="text" name="" id="sdt" class="form-control" value="" placeholder="Nhập số điện thoại"><br />
+                                        <input type="text" name="" id="_email" class="form-control" value=""
+                                            placeholder="Nhập địa chỉ email"><br />
+                                        <input type="text" name="" id="mk" class="form-control" value="" placeholder="Nhập mật khẩu"><br />
+                                        <input type="text" name="" id="xn_mk" class="form-control" value="" placeholder="Xác nhận mật khẩu"><br />
+                                        <input type="text" name="" id="diachi" class="form-control" value=""
+                                            placeholder="Nhập địa chỉ nhận hàng"><br />
+                                        <input type="checkbox" name="" id="dongy" value="1"> Bạn đã đọc và đồng ý với
+                                        các điều
+                                        khoản bảo mật của <b>TGGD</b><br />
+                                        <input type="checkbox" name="" id="nhan_km" value="1"> Đăng ký nhận mã khuyến
+                                        mãi từ
+                                        chúng tôi
+
+
+
+                                    </div>
+                                    <div class="modal-footer">
+                                        <input type="button" data-dismiss="modal" style="background: darkblue; color: white; cursor: pointer"
+                                            class="form-control" value="ĐĂNG KÝ" onclick=" return dangky()">
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </a>
+                    <a class="dropdown-item">
+                        <button type="button" class="dk" data-toggle="modal" data-target="#modelId2">
+                            đăng nhập
+                        </button>
+                        <div class="modal fade" id="modelId2" tabindex="-1" role="dialog" aria-labelledby="modelTitleId"
+                            aria-hidden="true">
+                            <div class="modal-dialog" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title">Đăng nhập</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <input type="text" name="" id="input" class="form-control" value="" placeholder="Nhập địa chỉ email"><br />
+                                        <input type="text" name="" id="input" class="form-control" value="" placeholder="Nhập mật khẩu">
+                                    </div>
+                                    <div class="modal-footer">
+                                        <input type="button" data-dismiss="modal" style="background: darkblue; color: white; cursor: pointer"
+                                            class="form-control" value="ĐĂNG NHẬP">
+
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+
+                </div>
+            </div>
+
+
+
+    </header>
+    <div class="alert alert-success" role="alert">
+
+        <p class="mb-0">THẾ GIỚI DI ĐỘNG XIN HÂN HẠNH ĐƯỢC HỖI TRỢ QUÝ KHÁCH</p>
+    </div>
+    <div class="contein">
+        <div class="left">
+            <div class="card border-primary">
+                <img class="card-img-top" src="holder.js/100px180/" alt="">
+                <div class="card-body">
+                    <h5 class="card-title">DANH MỤC SẢN PHẨM </h5>
+                    <hr />
+                    <p class="card-text">Điện thoại smartphone</p>
+                    <hr />
+                    <p class="card-text">Table</p>
+                    <hr />
+                    <p class="card-text">Laptop</p>
+                    <hr />
+                    <p class="card-text">Phụ kiện</p>
+                    <hr />
+                    <p class="card-text">Đồng hồ</p>
+                </div>
+            </div>
+            <div class="card border-primary">
+
+                <div class="card-body">
+                    <h5 class="card-title">LIÊN HỆ TRỰC TUYẾN </h5>
+                    <p class="card-text-color">CSKH 1 <br />
+                        Tel: 0973884333 </p>
+
+                </div>
+                <img class="card-img-top" src="https://media.licdn.com/dms/image/C560BAQHwzgdtx1ezuA/company-logo_200_200/0?e=2159024400&v=beta&t=vtHN1KhD0_t7k_e5eQaTYU6fwb4ptwHJiWWn60WnG30"
+                    alt="">
+            </div>
+
+        </div>
+
+        <div class="right">
+            <div class="lien_he">Liên hệ</div>
+            <hr />
+            <h5>Thông tin liên hệ</h5>
+            <div>Quý khách vui lòng điền thông tin theo mẫu form dưới đây để liên hệ với chúng tôi:</div>
+            <div class="contein_lh">
+                <div class="left_lh">
+                    <div class="form-group">
+                        <label for="">Họ và tên</label>
+                        <input type="text" name="" id="Hoten" class="form-control" placeholder="Họ và tên" aria-describedby="helpId">
+                        <label for="">Địa chỉ</label>
+                        <input type="text" name="" id="Diachi" class="form-control" placeholder="Dịa chỉ" aria-describedby="helpId">
+                        <label for="">Email</label>
+                        <input type="email" name="" id="Dc_email" class="form-control" placeholder="Email" aria-describedby="helpId">
+                        <label for="">Số điện thoại</label>
+                        <input type="text" name="" id="Sdt" class="form-control" placeholder="Số điên thoại"
+                            aria-describedby="helpId">
+                    </div>
+                </div>
+                <div class="right_lh">
+                    <div class="form-group">
+                        <label for="">Tiêu đề</label>
+                        <input type="text" name="" id="Tieude" class="form-control" placeholder="Tiêu đề" aria-describedby="helpId">
+                        <div class="form-group">
+                            <label for="">Yêu cầu</label>
+                            <textarea class="form-control" name="" id="" rows="7"></textarea>
+                            <a name="" id="" class="btn btn-primary" href="#" role="button" onclick="return guidi()">Gửi đi</a>
+                            <button  class="btn btn-primary" onclick="return chonlai()" type="reset">Chọn lại</button>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="text">Xem bản đồ chỉ dẫn của chúng tôi</div>
+            <div class="ban_do">
+                <iframe id="frmMap" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3918.4731526774367!2d106.79521241480138!3d10.851571792270509!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3175274501c51a19%3A0x1a8fb5646729745d!2zQ8O0bmcgdHkgQ1AgxJDhuqd1IHTGsCBUaOG6vyBnaeG7m2kgZGkgxJHhu5luZw!5e0!3m2!1svi!2s!4v1545281789932"
+                    width="100%" height="400" style="border:0"></iframe>
+            </div>
+        </div>
+    </div>
+
+
+    </div>
+    </div>
+    <footer>
+            <div class="contain_footer">
+                <div class="top_footer">
+                    <div class="_1_col_footer">
+                        <ul>
+                            <li><a href="">Tìm hiểu về mua trả góp</a></li>
+                            <li><a href=""> Chính sách bảo hành</a></li>
+                            <li><a href=""> Chính sách đổi trả</a></li>
+                            <li><a href=""> Giao hàng & Thanh toán</a></li>
+                        </ul>
+                    </div>
+                    <div class="_1_col_footer">
+                        <ul>
+    
+                            <li><a href="../html/gioi_thieu.html"> Giới thiệu công ty (mwg.vn)</a></li>
+                            <li><a href=""> Tuyển dụng</a></li>
+                            <li><a href=""> Gửi góp ý, khiếu nại</a></li>
+                            <li><a href="">Tìm siêu thị (1781 shop)</a></li>
+                            <li><a href=""> Xem bản mobile</a></li>
+                        </ul>
+                    </div>
+                    <div class="_1_col_footer">
+                        <ul>
+                            <li><a href=""> Gọi mua hàng <b>1800.1060 (7:30 - 22:00)</b></a></li>
+    
+                            <li><a href=""> Gọi khiếu nại <b>1800.1062 (8:00 - 21:30)</b></a></li>
+    
+                            <li><a href=""> Gọi bảo hành <b>1800.1064 (8:00 - 21:00)</b></a></li>
+    
+                            <li><a href=""> Hỗ trợ kỹ thuật<b> 1800.1763 (7:30 - 22:00)</b></a></li>
+                        </ul>
+                    </div>
+    
+                    <div class="_1_col_footer">
+                        <ul>
+                            <li><a href="">Website cùng tập đoàn </a></li>
+                            <li><a href=""> Điện máy xanh</a></li>
+                            <li><a href=""> Bách hóa xanh</a></li>
+                            <li><a href="../html/lien_he.html"> Thông tin liên hệ</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="bottom_footer">
+                    © 2018. Công ty cổ phần Thế Giới Di Động. GPDKKD: 0303217354 do sở KH & ĐT TP.HCM cấp ngày 02/01/2007.
+                    GP số 56/GP-TTDT do Sở TTTT TP HCM cấp ngày 30/07/2018. Địa chỉ: 128 Trần Quang Khải, P. Tân Định, Q.1,
+                    TP.Hồ Chí Minh. Điện thoại: 18001060. Email: cskh@thegioididong.com. Chịu trách nhiệm nội dung: Trần
+                    Nhật Linh. Xem chính sách sử dụng web
+                </div>
+    
+            </div>
+    
+    
+        </footer>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+        <script src="../js/lien_he.js"></script>
+</body>
+
+</html>

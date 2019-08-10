@@ -1,0 +1,460 @@
+header {
+    width: 100%;
+    background: rgb(240, 199, 17);
+    height: 55px;
+}
+
+header .table {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    height: 100%;
+    justify-content: space-between;
+}
+
+
+header .table .left_head {
+    width: 40%;
+    display: flex;
+    align-items: center;
+    background: black;
+    cursor: pointer;
+}
+
+header .table .left_head img {
+    width: 50%;
+    height: 100%;
+}
+
+header .table .left_head input {
+    width: 40%;
+    height: 50%;
+    margin-left: 2%;
+
+}
+
+header .table .right_head {
+    display: flex;
+    justify-content: space-between;
+    width: 59%;
+    align-items: center;
+    justify-content: center
+}
+
+header .table .right_head>a {
+    width: 16%;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+    transition: 0.5s;
+}
+
+header .table .right_head a:hover {
+    background: gray;
+}
+
+header .table .right_head img {
+    width: 20%;
+}
+
+header .table .right_head .text_header {
+    font-size: 15px;
+}
+
+header .table .right_head button {
+    margin-left: 1%;
+    cursor: pointer;
+    width: 13%;
+    border: none;
+    border-radius: 7px;
+    background: black;
+    color: white;
+    padding: 5px 1px;
+}
+.nav-item{
+    display: none;
+}
+.dk{
+    width: 107px;
+    background: bisque;
+    border-radius: 5px;
+}
+.body {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.banner {
+    display: flex;
+    justify-content: space-between;
+    padding: 1% 0;
+}
+
+.banner .left_banner {
+    width: 65%;
+}
+
+.banner .left_banner a img {
+    width: 100%;
+    padding-top: 1%
+}
+
+.banner .right_banner {
+    width: 33%;
+}
+
+.banner .right_banner a img {
+    padding-bottom: 1%;
+    width: 100%;
+}
+
+.menu ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    border: 1px solid gray;
+
+}
+
+.menu ul li {
+    width: 13%;
+    border-left: 1px solid gray;
+}
+
+.menu ul li>a img {
+    width: 100%;
+}
+
+.body .text {
+    padding: 1%;
+    border: 1px solid gray;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.items {
+    display: flex;
+    justify-content: space-between;
+    padding: 2% 0;
+}
+
+.items_left {
+    width: 39%;
+
+}
+
+.items_left ._1_item {
+    display: flex;
+    text-decoration: none;
+    color: black;
+
+
+}
+
+.items_left ._1_item .img_item {
+    width: 50%;
+
+}
+
+.items_left ._1_item .img_item img {
+    width: 100%;
+    padding-top: 7%;
+    padding-bottom: 2%;
+    transition: 0.4s;
+}
+
+.items_left ._1_item .text_left {
+    width: 50%;
+}
+
+.items_right {
+    width: 60%;
+}
+
+.text_left .name {
+    font-weight: bold;
+    font-size: 18px;
+
+}
+
+.text_left .price {
+    font-weight: bold;
+    color: red;
+}
+
+.khuyen_mai {
+    position: relative;
+}
+
+.khuyen_mai .contain_khuyen_mai {
+    border: 1px solid gray;
+    padding: 2%;
+}
+
+.khuyen_mai .text_khuyen_mai {
+    padding: 1%;
+    background: red;
+    position: absolute;
+    top: -7%;
+    left: 55%;
+    border-radius: 10px;
+}
+
+.mua_tragop {
+    display: flex;
+    padding: 2% 0;
+    justify-content: space-between;
+}
+
+.mua_tragop .mua {
+    width: 47%;
+    padding: 1% 2%;
+    border: 1px solid rgb(224, 126, 14);
+    text-align: center;
+    border-radius: 7px;
+    transition: 0.4s;
+}
+
+.mua_tragop .tra_gop {
+    width: 47%;
+    border: 1px solid blue;
+    text-align: center;
+    border-radius: 7px;
+    transition: 0.4s;
+}
+
+._1_item:hover .text_left .name {
+    color: blue;
+}
+
+._1_item:hover .text_left .mua_tragop .mua {
+    background: rgb(224, 126, 14);
+}
+
+._1_item:hover .text_left .mua_tragop .tra_gop {
+    background: blue;
+}
+
+._1_item:hover .img_item img {
+    padding-top: 2%;
+    padding-bottom: 7%;
+}
+
+.items_right {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-left: 1%;
+
+}
+
+.items_right ._1_item_right {
+    text-decoration: none;
+    color: black;
+    width: 32%;
+}
+
+._1_item_right .anh_item {
+    position: relative;
+}
+
+._1_item_right .anh_item img {
+    width: 100%;
+    padding-top: 7%;
+    padding-bottom: 2%;
+    transition: 0.4s;
+}
+
+._1_item_right .anh_item .tra_gop_0 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 1%;
+    color: white;
+    background: rgb(218, 162, 9);
+    border-radius: 7px;
+}
+
+._1_item_right .gia_item {
+    color: red;
+    font-weight: bold;
+}
+
+._1_item_right .gioi_thieu {
+    font-size: 14px;
+}
+
+._1_item_right:hover .ten_item {
+    color: blue;
+}
+
+._1_item_right:hover .anh_item img {
+    padding-bottom: 7%;
+    padding-top: 2%;
+}
+
+.san_pham {
+    padding: 1% 0;
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.san_pham ._1sp {
+    width: 19%;
+    text-decoration: none;
+    color: black;
+    padding: 2% 0;
+}
+
+.menu_foot ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    padding: 1%;
+    border: 1px solid gray;
+
+}
+
+.menu_foot ul li {
+    width: 19%;
+    text-align: center;
+    border-left: 1px solid gray;
+}
+
+.menu_foot ul li a {
+    color: black;
+    text-decoration: none;
+}
+
+.menu_foot ul li a:hover {
+    color: blue;
+}
+
+footer {
+    padding: 1% 0;
+    margin-top: 1%;
+    background: white;
+    background: lightgrey;
+}
+
+.contain_footer {
+    width: 90%;
+    margin: 0 auto;
+}
+
+footer .contain_footer .top_footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .contain_footer .top_footer ._1_col_footer ul {
+    list-style: none;
+
+}
+
+footer .contain_footer .top_footer ._1_col_footer ul li a {
+    text-decoration: none;
+}
+
+footer .contain_footer .top_footer ._1_col_footer ul li a:hover {
+    color: black;
+}
+
+footer .contain_footer .bottom_footer {
+    font-size: 12px;
+    text-align: center
+}
+
+@media only screen and (max-width:425px) {
+    header {
+        height: 40px;
+        width: 100%;
+        background: black;
+    }
+
+    header .table .left_head {
+        width: 100%;
+    }
+
+    .left_head img {
+        width: 100%;
+    }
+
+    .right_head a{
+        display: none;
+    }
+    .dangnhap,
+    .dangky {
+      display: none
+    }
+    .nav-item {
+        display: flex;
+        align-items: center;
+      
+    }
+    .dropdown-menu{
+        left: -150px;
+    }
+    
+
+    header .table .right_head {
+        width: 31%;
+    }
+    .dropdown-item {
+        background:lightsteelblue
+    }
+
+    .menu ul {
+        display: none;
+    }
+
+    .items_right {
+        display: none;
+    }
+
+    .khuyen_mai .text_khuyen_mai {
+        width: 47%;
+        font-size: 11px;
+        top: -13px;
+        margin-left: 11px;
+    }
+
+    .contain_khuyen_mai {
+        font-size: 12px;
+    }
+
+    .items_left {
+        width: 100%;
+    }
+
+    .san_pham ._1sp {
+        width: 32%;
+    }
+
+    .gioi_thieu {
+        display: none;
+    }
+
+    .price {
+        font-size: 14px;
+    }
+    ._1_col_footer {
+        display: none;
+    }
+    .menu_foot ul li a {
+        text-decoration: none;
+        font-size: 9px;
+        color: brown;
+        font-weight: bold;
+    }
+}
+@media only screen and (max-width:320px){
+    header .table .left_head img {
+        width: 67%;
+        height: 100%;
+    }
+   
+    }

@@ -1,0 +1,254 @@
+* {
+    margin: 0;
+    padding: 0
+}
+
+
+
+header {
+    width: 100%;
+    background: rgb(240, 199, 17);
+    height: 55px;
+}
+
+header .table {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    height: 100%;
+    justify-content: space-between;
+}
+
+header .table .left_head {
+    width: 40%;
+    display: flex;
+    align-items: center;
+    background: black;
+    cursor: pointer;
+}
+
+header .table .left_head img {
+    width: 50%;
+    height: 100%;
+}
+
+header .table .left_head input {
+    width: 40%;
+    height: 50%;
+    margin-left: 2%;
+
+}
+
+header .table .right_head {
+    display: flex;
+    justify-content: space-between;
+    width: 59%;
+    align-items: center;
+    justify-content: center
+}
+
+header .table .right_head a {
+    width: 16%;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+    transition: 0.5s;
+}
+
+header .table .right_head a:hover {
+    background: gray;
+}
+
+header .table .right_head img {
+    width: 20%;
+}
+
+
+header .table .right_head button {
+    margin-left: 1%;
+    cursor: pointer;
+    width: 13%;
+    border: none;
+    border-radius: 7px;
+    background: black;
+    color: white;
+    padding: 5px 1px;
+}
+.dropdown-item {
+    background:lightsteelblue
+}
+
+.nav-item{
+    display: none;
+}
+.dk{
+    width: 107px;
+    background: bisque;
+    border-radius: 5px;
+}
+.contein{
+width: 90%;
+display: flex;
+justify-content: space-between;
+margin: 0 auto
+}
+.left{
+    width: 25%;
+}
+.right{
+    width: 73%;
+}
+.mb-0 , .lien_he{
+    color: brown;
+    font-weight: bold
+}
+.card-title{
+    text-align: center
+}
+.card-text{
+    color: brown;
+    font-weight: bold;
+    background: lightcyan;
+    padding: 3%;
+    transition: 0.4s;
+}
+.card-text:hover{
+background: aquamarine
+}
+.card-text-color{
+    font-weight: bold;
+    color: red;
+    text-align: center
+}
+.card-img-top{
+    width: 90%;
+    margin: 0 auto;
+    padding: 2%
+}
+.border-primary{
+    margin-top: 3%;
+}
+.lien_he{
+    color: red;
+    font-size: 19px;
+    font-weight: bold
+}
+.contein_lh{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2%;
+    padding: 2%;
+}
+.left_lh , .right_lh{
+    width: 49%;
+}
+.form-control{
+    margin-bottom: 2%;
+}
+.text{
+    color: brown;
+    font-size: 18px;
+    font-weight: bold;
+}
+.ban_do{
+    width: 99%;
+    margin: 1% auto;
+}
+footer {
+    padding: 1% 0;
+    margin-top: 1%;
+    background: white;
+    background: lightgrey;
+}
+
+.contain_footer {
+    width: 90%;
+    margin: 0 auto;
+}
+
+footer .contain_footer .top_footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .contain_footer .top_footer ._1_col_footer ul {
+    list-style: none;
+
+}
+
+footer .contain_footer .top_footer ._1_col_footer ul li a {
+    text-decoration: none;
+}
+
+footer .contain_footer .top_footer ._1_col_footer ul li a:hover {
+    color: black;
+}
+
+footer .contain_footer .bottom_footer {
+    font-size: 12px;
+    text-align: center
+}
+@media only screen and (max-width:425px) {
+    header {
+        height: 40px;
+        width: 100%;
+        background: black;
+    }
+
+    header .table .left_head {
+        width: 100%;
+    }
+
+    .left_head img {
+        width: 100%;
+    }
+
+    .right_head a{
+        display: none;
+    }
+    .dangnhap,
+    .dangky {
+      display: none
+    }
+    .nav-item {
+        display: flex;
+        align-items: center;
+      
+    }
+    .dropdown-menu{
+        left: -150px;
+    }
+    
+    
+    header .table .right_head {
+        width: 31%;
+    }
+    .mb-0 {
+        font-size: 9px;
+    }
+    .contein {
+        display: block;
+    }
+    .left {
+        width: 100%;
+    }
+    .contein_lh {
+        display: block;
+    }
+    .left_lh , .right_lh{
+        width: 100%;
+    }
+    .right {
+        width: 100%;
+    }
+    li {
+        display: none;
+    }
+    @media only screen and (max-width:320px){
+        header .table .left_head img {
+            width: 66%;
+            height: 100%;
+        }
+        }
+}

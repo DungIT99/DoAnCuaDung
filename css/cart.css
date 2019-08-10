@@ -1,0 +1,272 @@
+header {
+    width: 100%;
+    background: rgb(240, 199, 17);
+    height: 55px;
+}
+
+header .table {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    height: 100%;
+    justify-content: space-between;
+}
+
+
+header .table .left_head {
+    width: 40%;
+    display: flex;
+    align-items: center;
+    background: black;
+    cursor: pointer;
+}
+
+header .table .left_head img {
+    width: 50%;
+    height: 100%;
+}
+
+header .table .left_head input {
+    width: 40%;
+    height: 50%;
+    margin-left: 2%;
+
+}
+
+header .table .right_head {
+    display: flex;
+    justify-content: space-between;
+    width: 59%;
+    align-items: center;
+    justify-content: center
+}
+
+header .table .right_head>a {
+    width: 16%;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+    transition: 0.5s;
+}
+
+header .table .right_head a:hover {
+    background: gray;
+}
+
+header .table .right_head img {
+    width: 20%;
+}
+
+header .table .right_head .text_header {
+    font-size: 15px;
+}
+
+header .table .right_head button {
+    margin-left: 1%;
+    cursor: pointer;
+    width: 13%;
+    border: none;
+    border-radius: 7px;
+    background: black;
+    color: white;
+    padding: 5px 1px;
+}
+.nav-item{
+    display: none;
+}
+.dk{
+    width: 107px;
+    background: bisque;
+    border-radius: 5px;
+}
+.dropdown-item {
+    background:lightsteelblue
+}
+.mua_ngay{
+    color: rgba(191, 214, 161, 0.048);
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    color: brown;
+    
+}
+.gio{
+    color:darkblue;
+    font-weight: bold;
+    padding-left: 1%;
+    font-size: 18px
+}
+.container{
+    display: flex;
+    justify-content: space-between
+}
+.left{
+    width: 58%;
+    display: flex;
+    justify-content: space-between;
+}
+.anh{
+    width: 18%;
+}
+.anh img{
+    width: 100%;
+}
+.text_left{
+    width: 78%;
+}
+.name{
+
+    font-size: 18px;
+    color: red;
+    font-weight: bold
+}
+.price{
+    color:sienna;
+    font-weight: bold;
+}
+form{
+    padding: 2% 0;
+
+
+}
+#sum{
+    color: red
+}
+.right{
+width: 41%;
+}
+.form{
+border: 1px solid blue;
+width: 70%;
+border-radius: 8px;
+
+}
+.title{
+padding: 2% 0;
+text-align: center;
+background:blue;
+color: white;
+font: 18px;
+border-radius: 8px;
+}
+.tong{
+    padding: 2% ;
+    display: flex;
+    justify-content: space-between;
+}
+.btn{
+padding: 2%;
+width: 100%;
+box-sizing: border-box;
+margin-top:2%;
+}
+#input{
+    border-radius: 8px;
+    width: 70%;
+}
+#button{
+   margin:2% 0;
+width: 60%;
+}
+
+footer {
+    padding: 1% 0;
+    margin-top: 1%;
+    background: white;
+    background: lightgrey;
+}
+
+.contain_footer {
+    width: 90%;
+    margin: 0 auto;
+}
+
+footer .contain_footer .top_footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .contain_footer .top_footer ._1_col_footer ul {
+    list-style: none;
+
+}
+
+footer .contain_footer .top_footer ._1_col_footer ul li a {
+    text-decoration: none;
+}
+
+footer .contain_footer .top_footer ._1_col_footer ul li a:hover {
+    color: black;
+}
+
+footer .contain_footer .bottom_footer {
+    font-size: 12px;
+    text-align: center
+}
+@media only screen and (max-width:425px) {
+    header {
+        height: 40px;
+        width: 100%;
+        background: black;
+    }
+
+    header .table .left_head {
+        width: 100%;
+    }
+
+    .left_head img {
+        width: 100%;
+    }
+
+    .right_head a{
+        display: none;
+    }
+    .dangnhap,
+    .dangky {
+      display: none
+    }
+    .nav-item {
+        display: flex;
+        align-items: center;
+      
+    }
+    .dropdown-menu{
+        left: -150px;
+    }
+    
+
+    header .table .right_head {
+        width: 31%;
+    }
+    .container{
+        display: block
+    }
+    .left , .right{
+        width: 100%;
+    }
+    .form {
+        border: 1px solid blue;
+        width: 85%;
+        border-radius: 8px;
+        margin: 4% auto;
+    }
+    
+    
+
+    ._1_col_footer {
+        display: none;
+    }
+    .name {
+        font-size: 17px;
+    }
+    .anh {
+        width: 41%;
+    }
+    ._text{
+        font-size: 15px
+    }
+    #button{
+     width: 70%;
+     }
+}

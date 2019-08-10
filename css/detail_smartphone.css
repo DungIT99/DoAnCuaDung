@@ -1,0 +1,407 @@
+* {
+    margin: 0;
+    padding: 0
+}
+
+
+
+header {
+    width: 100%;
+    background: rgb(240, 199, 17);
+    height: 55px;
+}
+
+header .table {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    height: 100%;
+    justify-content: space-between;
+}
+
+header .table .left_head {
+    width: 40%;
+    display: flex;
+    align-items: center;
+    background: black;
+    cursor: pointer;
+}
+
+header .table .left_head img {
+    width: 50%;
+    height: 100%;
+}
+
+header .table .left_head input {
+    width: 40%;
+    height: 50%;
+    margin-left: 2%;
+
+}
+
+header .table .right_head {
+    display: flex;
+    justify-content: space-between;
+    width: 59%;
+    align-items: center;
+    justify-content: center
+}
+
+header .table .right_head > a {
+    width: 16%;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+}
+
+header .table .right_head a:hover {
+    background: gray;
+}
+
+header .table .right_head img {
+    width: 20%;
+}
+
+
+header .table .right_head button {
+    margin-left: 1%;
+    cursor: pointer;
+    width: 13%;
+    border: none;
+    border-radius: 7px;
+    background: black;
+    color: white;
+    padding: 5px 1px;
+}
+.dropdown-item {
+    background:lightsteelblue
+}
+.nav-item{
+    display: none;
+}
+.dk{
+    width: 107px;
+    background: bisque;
+    border-radius: 5px;
+}
+
+.nav-item.dropdown {
+    display: none;
+}
+.items{
+    padding: 3% 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.left {
+    width: 35%;
+}
+.left img{
+    width: 100%;
+    padding-top:10px;
+    padding-bottom: 1px;
+    transition: 0.4s;
+}
+.left:hover img{
+padding-bottom: 10px;
+padding-top: 1px;
+}
+.left .form_cart{
+    padding-top:10%;
+
+    padding-left: 13%
+}
+
+.tong_tien{
+    padding-top: 5%;
+}
+#sum_price {
+    border: none;
+    width: 52%;
+}
+
+.right{
+    width: 40%;
+}
+
+.price{
+    display: flex;
+}
+.number{
+margin-right: 4%;
+color:red;
+font-size: 30px;
+font-weight: bold;
+}
+.km{
+    padding: 0 5px;
+    background: yellow;
+    align-items: center;
+    display: flex;
+    border-radius: 8px;
+    font-weight: bold;
+}
+.nhanhang{
+    background: lightskyblue;
+    display: flex;
+    margin-top: 2%;
+    width: 60%;
+    padding: 1%;
+    border-radius: 8px;
+
+}
+.glyphicon{
+    font-size: 22px;
+    padding: 0 2%;
+}
+.khong_ad{
+    color: red;
+}
+.text{
+    text-transform: uppercase;
+    padding: 0 3%;
+    margin-left: 5%;
+    border-left: 1px solid gray;
+}
+.phienban{
+    padding: 2% 0;
+}
+.khuyenmai{
+    border: 1px solid gray;
+    padding: 2% 1%;
+    width: 80%;
+    margin-top: 2%;
+}
+.title_km{
+    font-size: 20px;
+    text-align: center;
+    color: red;
+}
+.chitiet{
+    display: flex;
+    padding:2% 1% ;
+}
+.mua_online{
+    border: 2px solid red;
+    width: 90%;
+    margin: 0 auto;
+    border-radius: 8px;
+}
+.chitiet_mua{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 1%;
+}
+.anh{
+    width: 20%;
+}
+.anh img{
+    width: 100%;
+}
+.text_mua{
+    width: 75%;
+    align-items: center;
+    display: flex;
+}
+._checkbox{
+    width: 80%;
+    padding: 3% 0;
+}
+ .muangay{
+    width: 80%;
+    padding: 3% ;
+    background:darkorange;
+    border-radius: 8px;
+    color: white;
+
+}
+.top_mua_ngay{
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 18px;
+}
+.bottom_mua_ngay{
+    text-align: center;
+}
+.muangay a{
+    text-decoration: none;
+    color: white;
+}
+.mua_tra_gop{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    padding: 1% 0;
+}
+.mua_tra_gop a{
+    text-decoration: none;
+    color: white;
+    background: limegreen;
+    width: 49%;
+    padding: 2% 1%;
+    border-radius: 8px;
+
+}
+.lienhe{
+    width: 27%;
+    padding: 2% 0;
+}
+.nd_lh{
+    border: 1px solid gray;
+    margin-top: 5%;
+}
+.detail{
+    display: flex;
+    padding: 1% 1%;
+}
+.gia{
+    color: red;
+    font-weight: bold;
+}
+
+
+.slide{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+
+}
+.text_slide a{
+    text-decoration: none;
+}
+.right_slide{
+    padding: 0 2%;
+}
+footer {
+    padding: 1% 0;
+    margin-top: 1%;
+    background: white;
+    background: lightgrey;
+}
+
+.contain_footer {
+    width: 90%;
+    margin: 0 auto;
+}
+
+footer .contain_footer .top_footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .contain_footer .top_footer ._1_col_footer ul {
+    list-style: none;
+
+}
+
+footer .contain_footer .top_footer ._1_col_footer ul li a {
+    text-decoration: none;
+}
+
+footer .contain_footer .top_footer ._1_col_footer ul li a:hover {
+    color: black;
+}
+
+footer .contain_footer .bottom_footer {
+    font-size: 12px;
+    text-align: center
+}
+
+@media only screen and (max-width:425px) {
+    header {
+        height: 40px;
+        width: 100%;
+        background: black;
+    }
+
+    header .table .left_head {
+        width: 100%;
+    }
+
+    .left_head img {
+        width: 100%;
+    }
+
+    .right_head a{
+        display: none;
+    }
+    .dangnhap,
+    .dangky {
+      display: none
+    }
+    .nav-item {
+        display: flex;
+        align-items: center;
+      
+    }
+    .dropdown-menu{
+        left: -150px;
+    }
+    
+
+    header .table .right_head {
+        width: 31%;
+    }
+    .nav-item.dropdown {
+        display: flex;
+        align-items: center
+
+    }
+    .items {
+        
+        display: block;
+    }
+    .left {
+        width: 100%;
+    }
+    .left img{
+        width: 80%;
+        margin: 0 auto
+    }
+    .right {
+        width: 100%;
+    }
+    .price {
+        display: flex;
+        justify-content: space-around;
+    }
+    .km {
+        padding: 6px 22px;
+    }
+    .number {
+        font-size: 27px;
+    }
+    .tong_tien {
+        font-size: 25px;
+    }
+    .nhanhang {
+        width: 100%;
+    }
+    .text {
+        font-size: 17px;
+        margin: 0 auto;
+        font-weight: bold;
+        color: brown
+    }
+    .khuyenmai , ._checkbox , .muangay, .mua_tra_gop ,.lienhe {
+        width: 100%;
+    }
+    .slide {
+        display: block
+    }
+    .slide img{
+        width: 100%;
+    }
+    ._1_col_footer{
+        display: none;
+    }
+    footer{
+        background: lightgray;
+    }
+
+
+}
+
+
+
